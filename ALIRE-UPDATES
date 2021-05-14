@@ -1,0 +1,72 @@
+A FAIRE POUR LA PROCHAINE FOIS : 
+
+- A viser :
+	. vérifier que toutes les méthodes Tools fonctionnent
+	. vérifier que toutes les méthodes Services fonctionnent
+	et APRES on verra pour le reste petit foufou la tête !
+
+A FAIRE :
+
+Tools 
+	ErrorTool :
+	- FAIRE DES PUTAINS DE TESTS MECHANTS
+	
+	!!!!! FriendsTool + Friends :
+	- Verifier et tester chaque methode !!!!!
+	
+FAIT :
+
+- Un début de mise en forme des pages principales :
+	- formulaire de creation d'un utilisateur
+	- formulaire de connexion
+	- page d'accueil avec les messages
+
+le 30/04/2020 :
+	- debogage de la méthode login et la methode logout
+	- debogage de la méthode checkPassword
+	- creation d'une méthode de récupération du mot de passe
+	- test de la méthode création d'un message
+	- test de la methode recuperation des messages (tous + par utilisateur)
+	- ajout d'une méthode de récupération de la date d'ajout d'un ami
+	- test de toutes les méthodes de tools.FriendsTool (fonctionnent)
+	- modification des methodes d'ajout/de suppression d'un ami (dans FriendsTool)
+	  on ajoute/supprime un ami de maniere unilaterale (voir doc avec les methodes)
+
+le 01/05/2020 :
+	- ajout d'une methode Timestamp getDateUpdate(String login) dans UserTool pour récupérer la
+	  derniere date de mise a jour de la session (utile pour gerer l'etat de connexion d'un utilisateur)
+	- ajout d'une methode suppressionCompleteUser(String login, String mdp) qui supprime l'utilisateur
+	  et sa session (et ses amis + a ajouter)
+	- ajout d'une verification de bonne utilisation dans la methode newFriend de FriendsTool
+	- tri des methodes de UserTool
+	- test de toutes les methodes de UserTool (dans TestUserTool)
+	
+	
+A FAIRE :
+
+- Interface Utilisateur :	
+	- Gerer la communication entre la page d'affichage des messages et la BD
+	- Gerer le passage de la page de connexion à la page des messages
+	- Creer une page de récupération du mot de passe
+	- Creer une page d'erreur d'authentification
+	
+- Serveur :
+	- Faire le bilan des fonctionnalités présentes, des modifications à apporter et des bug à corriger
+	- Tester
+	- Améliorer le code (factorisation de code, amélioration algorithmique etc.)
+	
+	
+BILAN DES TESTS :
+
+Serveur :
+	- Services :
+		- ErrorTool 	(a maltraiter)
+		- FriendsTool 	(a maltraiter) 
+			
+		- UserTool 		fonctionne
+			
+		- MessageTool	
+		
+	- Tools :
+
+	- Servlets :

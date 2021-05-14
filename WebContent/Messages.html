@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Messages</title>
+<style type="text/css">
+	@import "messagesStyle.css";
+</style>
+</head>
+<body>
+	
+	<!-- <script type="text/javascript">
+		 alert("Message Javascript"); 
+	</script> -->
+	
+	<div id="entete" style="border:solid; height:80px">
+		<div class="logo"> <img src="logo2.png" alt="Logo" height=60px width=60px> </div>
+		<div class="recherche">
+			Zone de Recherche
+			<input type="text" name="search">
+		</div>
+		<div class="deconnexion">Lien de deconnexion</div>		
+	</div>
+	
+	
+	
+	<div id="main">
+	
+		<div id="stats"> 
+		Statistiques
+		<!--  <script type="text/javascript">
+			date = new Date();
+			document.writeIn("La date du jour est le ", date);
+		</script>  -->
+		</div>
+		
+		<div id="messages">
+			<div class="newMsg">
+			<form method=post>
+				<table>
+					<tr>
+						<td>Nouveau Message<br/>
+						<textarea rows="3" name="Message" placeholder="Nouveau Message"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td><input type="submit" value="Envoyer"></td>
+					</tr>
+				</table>
+			</form> </div>
+			
+			<div class="msg1" >
+			<table style="text-align:center">
+				<tr>
+					<td>Un premier Message<br/>
+					<textarea rows="3" name="Message" readonly="readonly">Hello</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Commenter"></td>
+				</tr>
+			</table></div>
+		</div>
+	</div>
+
+</body>
+</html>

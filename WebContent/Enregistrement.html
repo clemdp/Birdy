@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Enregistrement</title>
+<style type="text/css">
+	
+	h1{text-align:center; font-weight:1000; font-style:italic;}
+	
+	form{position:float; float:center; margin:0 auto; width:50%; border:solid;}
+	h3{text-align:center;}
+	
+	div{position:float; float:left; width:35%; margin-top:10px;}
+	input{position:float; float:right; width:50%; margin-bottom:10px;}
+	#nom, #prenom, input[name=nom], input[name=prenom] {width:40%; position:float; float:left; margin-right:10px; text-align:center;}
+	
+	
+	
+	/*table{position:float; float:center; width:500px}
+	#col1{position:float; float:left; width:25%}
+	#col2{position:float; float:left; width:25%}
+		/*#col1 .nom{text-align:center}
+		#col2 .prenom{text-align:center}*/
+		/*#col1 input{display:block; width:70%}
+		#col2 input{width:80%; float:center}*/
+	
+
+</style>
+
+</head>
+<body>
+	<h1>Nouveau parmi nous ?</h1>
+
+	<form action="http://localhost:8080/Birdy/User" method="POST">
+		<h3>Enregistrement</h3>
+		
+		<div id="nom"> Nom </div>
+		<div id="prenom"> Prenom </div>
+		<br/>
+		
+		<input type="text" name="nom">
+		<input type="text" name="prenom">
+		<br/>
+		
+		<div id="log"> Login </div>
+		<input type="text" name="test">
+		<br/>
+		
+		<div id="mdp"> Mot de Passe </div>
+		<input type="password" name="mot de passe">
+		<br/>
+		
+		<div id="mdp"> Retapez votre mot de passe </div>
+		<input type="password" name="mot de passe">
+		<br/>
+		
+		<input type="submit" value="Enregistrer">
+		<input type="reset" value="Annuler">
+		
+	</form>
+	
+	
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+h1{
+	color: blue; 
+	font-style: oblique; 
+	text-align: center;
+}
+
+nav{
+	border: solid; 
+	border-color: green;
+}
+
+form{
+	text-align: center;
+}
+
+body{
+	background-color: rgb(150, 200, 230);
+}
+
+#entete{
+	background: linear-gradient(to bottom, orange, yellow); 
+	column-count: 3;
+}
+
+.logo{
+	position: float; 
+	float: left; 
+	width: 30%;
+}
+
+.recherche{
+	position: float; 
+	float: center; 
+	width: 40%; 
+	block-align: center;
+}
+
+.deconnexion{
+	position: float; 
+	float: right; 
+	width: 30%; 
+	text-align: right;
+}
+
+#stats{
+	position: float; 
+	float: left; 
+	width: 20%; 
+	display: inline-block; 
+	background: grey;
+}
+
+#messages{
+	postion: float; 
+	float: right; 
+	width: 80%; 
+	display: inline-block;
+}
+
+.newMsg{
+	background: linear-gradient(to bottom right, blue, red); 
+	font-family: fantasy;
+}
+
+.msg1{
+	background: linear-gradient(to top left, lightgreen, blue); 
+}
+
+textarea{
+	margin:0 auto;
+	width:50%;
+}
+
+input{
+	margin:0 auto;
+	width:100px;
+}

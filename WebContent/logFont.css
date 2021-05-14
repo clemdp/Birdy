@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+	background-color:rgb(200, 230, 250); 
+	margin: 0 auto; 
+	width:70%; 
+	text-align:center;
+}
+
+h1{
+	background-color:rgb(100, 150, 250);
+}
+
+form{
+	margin: 0 auto; 
+	width:300px; 
+	text-align:left; 
+}
+	
+h3{
+	text-align:center;
+}
