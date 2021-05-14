@@ -3,16 +3,15 @@ A FAIRE POUR LA PROCHAINE FOIS :
 - A viser :
 	. vérifier que toutes les méthodes Tools fonctionnent
 	. vérifier que toutes les méthodes Services fonctionnent
-	et APRES on verra pour le reste petit foufou la tête !
 
 A FAIRE :
 
 Tools 
 	ErrorTool :
-	- FAIRE DES PUTAINS DE TESTS MECHANTS
+	- FAIRE DES TESTS APPRONFONDIS
 	
-	!!!!! FriendsTool + Friends :
-	- Verifier et tester chaque methode !!!!!
+	FriendsTool + Friends :
+	- Verifier et tester chaque methode
 	
 FAIT :
 
@@ -60,8 +59,8 @@ BILAN DES TESTS :
 
 Serveur :
 	- Services :
-		- ErrorTool 	(a maltraiter)
-		- FriendsTool 	(a maltraiter) 
+		- ErrorTool 	(a tester)
+		- FriendsTool 	(a tester) 
 			
 		- UserTool 		fonctionne
 			
